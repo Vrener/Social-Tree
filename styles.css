@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    background: #FAF7FD;
+}
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4%;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #BB99DD;
+    margin: 10px;
+    height: 30px;
+    width: 300px;
+}
+
+.redeSociais{
+    margin-left: 20px;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+}
+
+#unico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border: none;
+}
+
+p{
+    color: #BB99DD;
+    margin-top: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #BB99DD;
+}
